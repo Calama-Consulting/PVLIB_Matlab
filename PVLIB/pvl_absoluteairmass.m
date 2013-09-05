@@ -14,7 +14,7 @@ function AMa = pvl_absoluteairmass(AMrelative,pressure)
 %   absolute airmass = (relative airmass)*pressure/101325
 %
 % Inputs:   
-%   AMrelative - The airmass at sea-level.  This can be calculated using the 
+%   AMrelative - The airmass at sea-level which can be calculated using the 
 %     PV_LIB function pvl_relativeairmass. 
 %   pressure - a scalar or vector of values providing the site pressure in
 %     Pascal. If pressure is a vector it must be of the same size as all
