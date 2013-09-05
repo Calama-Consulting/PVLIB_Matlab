@@ -27,7 +27,7 @@ function DOY=pvl_date2doy(Year, Month, Day)
 %   fractional) as a floating point number from 1 to 366.999... If any of
 %   the input values are NaN, the corresponding output value will be NaN.
 %
-%   Note that while Day must be >=1 and <32. The calculation does NOT check
+%   Note: while Day must be >=1 and <32. The calculation does NOT check
 %   to ensure that the day of month is valid for a given month. Thus
 %   pvl_date2doy(2012, 4, 31) = pvl_date2doy(2012, 5, 1). 
 %
